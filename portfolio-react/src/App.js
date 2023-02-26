@@ -2,22 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const name="Lisette Morales";
+  const navTitleOne="About Me";
+  const navTitleTwo="Portfolio";
+  const navTitleThree="Contact";
+  const navTitleFour="Resume";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <h1>{name}</h1>
+      <h2>{navTitleOne}</h2>
+      <h3>{navTitleTwo}</h3>
+      <h4>{navTitleThree}</h4>
+      <h5>{navTitleFour}</h5>
     </div>
   );
 }
