@@ -10,6 +10,7 @@ export default function About() {
     <h3></h3> 
     <div class="project-list"> 
     <img alt="Image of me" src={avatar1} class="float-left" id="me-image"/>
+    <br />
     <p>
     My name is Lisette Morales. Currently, I am learning skills in HTML, CSS, and JavaScript for full-stack web development. My professional interest is web development. In particular, I have interest in both front-end development and back-end development. 
     </p> 
