@@ -5,7 +5,10 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Navbar from './components/Navbar';
+// import Header from './components/Header';
 
+import avatar1 from './images/avatar1.png';
 // import pic1 from './images/nameofimage.jpg';
 
 function App() {
@@ -38,30 +41,24 @@ function App() {
 
   return (
     <div> 
-      <h1>{name}</h1>
-
+       <navbar class="navbar"></navbar>
+      <Navbar />
+      <h2>{}</h2>
     <header class="header">
-      <nav>
-            <ul>
-                <li>
-                    <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
-                </li>
-                <li>
-                    <a href="#projects"onClick={()=>setCurrentPage("Projects")}>{navTitleTwo}</a>
-                </li>
-                <li>
-                    <a href="#contact"onClick={()=>setCurrentPage("Contact")}>{navTitleThree}</a>
-                </li>
-                <li>
-                    <a href="#contact"onClick={()=>setCurrentPage("Resume")}>{navTitleFour}</a>
-                </li>
-            </ul>
-        </nav>
+        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+        <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
+            <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
+            <a href="#projects"onClick={()=>setCurrentPage("Projects")}>{navTitleTwo}</a>
+            <a href="#contact"onClick={()=>setCurrentPage("Contact")}>{navTitleThree}</a>
+            <a href="#contact"onClick={()=>setCurrentPage("Resume")}>{navTitleFour}</a>
+          </div>
+          {renderPage()}
+          </div>
     </header>
 
     {/* <!-- This is the main opening tag --> */}
     <main class="content" id="content-section">
-      {renderPage()}
+      {/* {renderPage()} */}
 
         {/* <!--Line break--> */}
         <br />
@@ -75,14 +72,19 @@ function App() {
 
     {/* <!-- This is the footer opening tag --> */}
     <footer class="footer">
-        <h5>Made by: Lisette M. 
+    <div style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+        <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
+        <h6>Made by: Lisette M. &copy; 2023
         <p>
           <ol class="card3">
+          <br />
                   <a href="https://github.com/Lisette33"><button><b>GitHub</b></button></a>
                 </ol>
-            &copy; 2023
+           
         </p> 
-        </h5>
+        </h6>
+        </div>
+        </div>
     </footer>
     {/* <!-- This is the footer closing tag --> */}
   
