@@ -6,10 +6,10 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-// import Header from './components/Header';
-
 import avatar1 from './images/avatar1.png';
-// import pic1 from './images/nameofimage.jpg';
+import pic2 from './images/pic2.jpg';
+// import pic3 from './images/pic3.jpg';
+// import pic4 from './images/pic4.jpg';
 
 function App() {
 
