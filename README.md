@@ -14,7 +14,7 @@ Lisette Morales
 The project represents a creation of a portfolio utilizing React.
 
 ## Screenshot of Application
-![React Portfolio]()
+![React Portfolio](https://user-images.githubusercontent.com/113862182/222610579-e386cd64-c0cf-4e07-8520-bde7095dca2d.png)
 
 ## Project Guidelines stated as:
 
@@ -80,6 +80,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Acknowledgment
 I would like to thank the professor, TAs, and others who provided their helpful guidance.
+
 
 
 
