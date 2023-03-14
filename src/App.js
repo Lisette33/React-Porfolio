@@ -74,11 +74,11 @@ function App() {
     <footer class="footer">
     <div style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
-        <h6>Made by: Lisette M. &copy; 2023
+        <h6>
         <p>
           <ol class="card3">
           <br />
-                  <a href="https://github.com/Lisette33"><button><b>GitHub</b></button></a>
+                    Made by: Lisette M. &copy; 2023 <a href="https://github.com/Lisette33"><b>GitHub</b></a>
                 </ol>
            
         </p> 
