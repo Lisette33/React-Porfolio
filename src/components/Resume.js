@@ -36,7 +36,7 @@ export default function About() {
           </li></b>
           <br />
           <br /> */}
-            <a href="#">Resume</a>
+            <a href=""><button><b>Resume</b></button></a>
         </ul>
     </ul>
 </section>
