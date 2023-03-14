@@ -18,7 +18,7 @@ export default function About() {
     <br/>
     <p>
              <p class="tab"><b>Full-Stack Web Development Skills:</b></p>
-           
+             {/* <br/> */}
              <p class="tabOne">Front end:  HTML; CSS; JavaScript; Git; Bootstrap; The DOM; APIs; JQuery; JSON; AJAX </p>
                 <br/>
             <p class="tabTwo">Back end:  Node; ES6; Object-oriented programming; Express; MySQL; MVC paradigm; 
