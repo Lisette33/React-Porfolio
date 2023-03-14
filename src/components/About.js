@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar1 from '../images/avatar1.png';
+import avatar1 from '../images/pic-of-me.png';
 
 export default function About() {
 
@@ -11,9 +11,21 @@ export default function About() {
     <div class="project-list"> 
     <img alt="Image of me" src={avatar1} class="float-left" id="me-image"/>
     <br />
+    <br />
     <p>
-    My name is Lisette Morales. Currently, I am learning skills in HTML, CSS, and JavaScript for full-stack web development. My professional interest is web development. In particular, I have interest in both front-end development and back-end development. 
+    My name is Lisette Morales. I have full-stack web development experience. 
     </p> 
+    <br/>
+    <p>
+             <p class="tab"><b>Full-Stack Web Development Skills:</b></p>
+           
+             <p class="tabOne">Front end:  HTML; CSS; JavaScript; Git; Bootstrap; The DOM; APIs; JQuery; JSON; AJAX </p>
+                <br/>
+            <p class="tabTwo">Back end:  Node; ES6; Object-oriented programming; Express; MySQL; MVC paradigm; 
+                Sequelize; Testing; Agile development</p>
+                <br/>
+            <p class="tabThree">Performance:  Progressive Web Apps; React; NoSQL; MERN Stack; Computer Science Fundamentals</p>
+    </p>
     </div>
 </section>
   );

@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-import avatar1 from './images/avatar1.png';
+import avatar1 from './images/pic-of-me.png';
 import pic2 from './images/pic2.jpg';
 // import pic3 from './images/pic3.jpg';
 // import pic4 from './images/pic4.jpg';
