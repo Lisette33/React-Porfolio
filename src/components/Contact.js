@@ -24,7 +24,7 @@ export default function About() {
         </ol>
         <ol class="card2">
         <br />
-            <b>Email:</b> <a href="mailto:lisettem367@gmail.com">Lisettem367@gmail.com</a>
+            <b>Email:</b> <a href="mailto:lisettem367@gmail.com">Lisettem884@gmail.com</a>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label"></label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
