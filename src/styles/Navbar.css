@@ -1,7 +1,6 @@
 .navbar {
-    background: #59baba;
-    /* background: #6dd6e2; */
-    height: 80px;
+    background: #97b3b4;
+    /* height: 60px; */
   }
   
   .navbar {
@@ -9,10 +8,63 @@
     padding-top: 1px;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 1rem;
+    
   }
-  
-  body {
-    background-color: hsl(120, 7%, 92%);
 
+  .navbar h1 {
+    display: inline-block;
+    font-size: 73px;
+    position: relative;
+    left:20px;
+    bottom: -2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+.navbar nav ul {
+    list-style-type: none;
+}
+
+.navbar nav ul ol {
+    display: inline-block;
+    margin-left: 28px;  
+    /* width: px; */
+    /* padding: 20px; */
+    /* margin: 15px; */
+    /* margin-bottom: 50px; */
+    position: relative;
+    left:-24px;
+    bottom: -7px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: #32a0d7; */
+    
+}
+
+.navbar nav ol a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+  /* body { */
+    /* background-color: hsl(120, 7%, 92%); */
+    /* background-image: linear-gradient(to right, #c6ffdd, #ffeb68, #fbd786);
+    background-size: 400% 400%;
+    height: 100vh;
+  } */
+
+
+body {
+  background-image: linear-gradient(to right top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #5ffbf1);
+}
+
+/* body {
+background-image: linear-gradient(to left top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #5ffbf1);
+} */
+
+.footer {
+  background: #97b3b4;
+  height: 110px;
 }

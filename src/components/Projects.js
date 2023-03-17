@@ -12,7 +12,7 @@ export default function About() {
     <ul class="project-list">
     {/* width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center" */}
         <div class="flex-box">
-        <ol class="card" style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center", background: "white"}}> 
+        <ol class="card" style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",background: "white"}}> 
         <img alt="project2" src={pic3} class="float-left" id="image"/>
         <br/>
             <a href="https://lisette33.github.io/Module-1-Challenge-Assignment/">

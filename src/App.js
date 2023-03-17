@@ -17,7 +17,7 @@ function App() {
   const navTitleOne="About Me";
   const navTitleTwo="Portfolio";
   const navTitleThree="Contact";
-  const navTitleFour="Resume";
+  // const navTitleFour="Resume";
   const [message,setMessage]=useState("");
   console.log(message);
 
@@ -33,24 +33,24 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
+    // if (currentPage === 'Resume') {
+    //   return <Resume />;
+    // }
     return <About />;
   };
 
   return (
     <div> 
        <navbar class="navbar"></navbar>
-      <Navbar />
+      <Navbar> </Navbar> 
       <h2>{}</h2>
     <header class="header">
-        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-        <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
+        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>,
+        <div style={{display:"flex",marginBottom:"100px",width:"50vw",justifyContent:"space-evenly"}}>
             <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
             <a href="#projects"onClick={()=>setCurrentPage("Projects")}>{navTitleTwo}</a>
             <a href="#contact"onClick={()=>setCurrentPage("Contact")}>{navTitleThree}</a>
-            <a href="#contact"onClick={()=>setCurrentPage("Resume")}>{navTitleFour}</a>
+            {/* <a href="#contact"onClick={()=>setCurrentPage("Resume")}>{navTitleFour}</a> */}
           </div>
           {renderPage()}
           </div>
