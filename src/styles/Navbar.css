@@ -68,3 +68,10 @@ background-image: linear-gradient(to left top, #3b77e4, #008deb, #009fe8, #00afe
   background: #97b3b4;
   height: 110px;
 }
+
+.footer h6 ol {
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  
+}

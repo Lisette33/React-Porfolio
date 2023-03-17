@@ -78,7 +78,8 @@ function App() {
         <p>
           <ol class="card3">
           <br />
-                    Made by: Lisette M. &copy; 2023 <a href="https://github.com/Lisette33"><b>GitHub</b></a>
+          <br />
+                    Created by: Lisette Morales &copy; 2023 <a href="https://github.com/Lisette33"><b>GitHub</b></a>
                 </ol>
            
         </p> 
