@@ -1,0 +1,90 @@
+#card-one{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: -400px; 
+    bottom: -185px;
+    font-size: 19px;
+    color: white;
+}
+
+#card-two{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: 5px; 
+    bottom: 1px;  
+    font-size: 19px;
+    color: white;
+  
+}
+
+#card-three{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: 410px; 
+    bottom: 187px;  
+    font-size: 19px;
+    color: white;
+}
+
+#card-four{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: -401px; 
+    bottom: 120px;  
+    font-size: 19px;
+    color: white;
+}
+
+#card-five{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: 5px; 
+    bottom: 306px;  
+    font-size: 19px;
+    color: white;
+}
+
+#card-six{
+    background-image: url("../images/pic3.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none; */
+    /* width: 18%; */ 
+    padding: 40px;
+    /*position: relative;*/
+    left: 412px; 
+    bottom: 492px;  
+    font-size: 19px;
+    color: white;
+}

@@ -1,23 +1,28 @@
 .navbar {
-    background: #97b3b4;
+    /* background: #97b3b4; */
     /* height: 60px; */
   }
   
   .navbar {
     margin: 0;
-    padding-top: 1px;
+    padding-top:1px;
     text-align: center;
-    color: white;
-    font-size: 1rem;
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+    left:55px;
+    bottom: -5px;
     
   }
 
-  .navbar h1 {
+  .navbar h2 {
     display: inline-block;
-    font-size: 73px;
+    font-size: 30px;
+    font-weight: bold;
     position: relative;
-    left:20px;
+    /* left:15px; */
     bottom: -2px;
+    margin-left: 10px;
+    margin-right: 6px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
@@ -35,17 +40,23 @@
     /* margin: 15px; */
     /* margin-bottom: 50px; */
     position: relative;
-    left:-24px;
+    left:-85px;
     bottom: -7px;
-    font-size: 19px;
+    margin-right: 14px;
+    margin-left: 10px;
+    font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* background-color: #32a0d7; */
     
 }
 
 .navbar nav ol a {
-    color: #ffffff;
+    display: inline-block;
+    /* color: #ffffff; */
+    color: rgb(252, 252, 252);
     text-decoration: none;
+
+    
 }
   
   /* body { */
@@ -57,15 +68,27 @@
 
 
 body {
-  background-image: linear-gradient(to right top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #5ffbf1);
+  background-image: linear-gradient(to right top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #00ebdb);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 105% 105%;
+  padding:0px;
+  /* width: 110%;
+  height: 100%;  */
 }
+
+
+/* body {
+  background-image: linear-gradient(to right top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #00ffef);
+} */
 
 /* body {
 background-image: linear-gradient(to left top, #3b77e4, #008deb, #009fe8, #00afe0, #00bdd6, #0ec6d5, #27cfd2, #3fd8ce, #47e1d7, #4fe9df, #57f2e8, #5ffbf1);
 } */
 
 .footer {
-  background: #97b3b4;
+  /* background: #97b3b4; */
   height: 110px;
 }
 

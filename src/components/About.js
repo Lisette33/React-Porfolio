@@ -1,32 +1,60 @@
 import React from 'react';
+import '../styles/About.css';
 import avatar1 from '../images/pic-of-me.png';
+import pic3 from '../images/pic3.jpg';
 
 export default function About() {
 
   return (
-    <section id="about-me" class="about-me"> 
-    <br />
-    <br />
-    <h3></h3> 
-    <div class="project-list"> 
-    <img alt="Image of me" src={avatar1} class="float-left" id="me-image"/>
-    <br />
-    <br />
-    <p>
-    My name is Lisette Morales. I have full-stack web development experience. 
-    </p> 
-    <br/>
-    <p>
-             <p class="tab"><b>Full-Stack Web Development Skills:</b></p>
-             {/* <br/> */}
-             <p class="tabOne">Front end:  HTML; CSS; JavaScript; Git; Bootstrap; The DOM; APIs; JQuery; JSON; AJAX </p>
-                <br/>
-            <p class="tabTwo">Back end:  Node; ES6; Object-oriented programming; Express; MySQL; MVC paradigm; 
-                Sequelize; Testing; Agile development</p>
-                <br/>
-            <p class="tabThree">Performance:  Progressive Web Apps; React; NoSQL; MERN Stack; Computer Science Fundamentals</p>
-    </p>
+   <div>
+    <div class="container">
+ 
+    {/* <div class="card mb-3" style="max-width: 540px;"> */}
+    <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
     </div>
-</section>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   );
 }
