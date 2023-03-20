@@ -1,59 +1,118 @@
 import React from 'react';
+import '../styles/Projects.css';
 // import pic2 from '../images/pic2.jpg';
 import pic3 from '../images/pic3.jpg';
 // import pic4 from '../images/pic4.jpg';
 
 export default function About() {
   return (
-    <section id="projects" class="about-me">
-    <br />
-    <br />
-    <h3></h3>
-    <ul class="project-list">
-    {/* width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center" */}
-        <div class="flex-box">
-        <ol class="card" style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",background: "white"}}> 
-        <img alt="project2" src={pic3} class="float-left" id="image"/>
-        <br/>
-            <a href="https://lisette33.github.io/Module-1-Challenge-Assignment/">
-            <button><b>Horiseon Project</b></button></a> 
-            <br/>
-            <a href="https://iamlucho.github.io/movie-finder-project/">
-            <button><b>Movie Finder Project</b></button></a>
-            <br/>
-            <a href="https://damp-river-14558.herokuapp.com/"><button><b>Secret Sauce Project</b></button></a>
-            <br/>
-            {/* <img alt="project1" src={pic2} class="float-left" id="image"/> */}
-        </ol>
-        </div>
-        {/* <div class="flex-box2" style={{jwidth:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}> 
-        <ol class="card"> 
-            <a href="https://iamlucho.github.io/movie-finder-project/">
-            <button><b>Movie Finder Project</b></button></a>
-        </ol>
-        </div> */}
-        {/* <div class="flex-box3" style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}> 
-        <ol class="card"> 
-            <a href="https://damp-river-14558.herokuapp.com/"><button><b>Secret Sauce Project</b></button></a>
-            {/* <img alt="project3" src={pic4} class="float-left" id="image"/> */}
-        {/* </ol> */}
-        {/* </div> 
-        <div class="flex-box4" style={{justifyContent:"center"}}> 
-        <ol class="card"> 
-            <a href="#project-4"><button><b>Project 4</b></button></a>
-        </ol> 
-        </div>
-        <div class="flex-box5" style={{justifyContent:"center"}}> 
-        <ol class="card"> 
-            <a href="#project-5"><button><b>Project 5</b></button></a>
-        </ol>
-        </div>
-        <div class="flex-box6" style={{justifyContent:"center"}}> 
-        <ol class="card"> 
-            <a href="#project-6"> <button><b>Project 6</b></button></a>
-        </ol> */}
-        {/* </div> */}
-    </ul>
-</section>
+    <div class="container">
+
+    <div style={{display:"flex",flex:"row", justifyContent:"center",width:"100%",height:"105%", padding:"05%", alignItems:"center"}}>
+    <div class="row row-cols-1 row-cols-sm-2 g-5 text-center">
+
+  <div class="row row-cols-1 row-cols-mb-3 g-4 w-100 text-center">
+  <div class="col">
+    <a href='https://iamlucho.github.io/movie-finder-project/' target='_blank'> 
+    <div class="card h-20" id='card-one'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Movie Finder <br/> Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a>
+
+    <div class="col">
+    <a href='https://damp-river-14558.herokuapp.com/' target='_blank'> 
+    <div class="card h-100" id='card-two'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Secret Sauce <br/> Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a> 
+
+    <div class="col">
+    <a href='https://lisette33.github.io/Module-1-Challenge-Assignment/' target='_blank'> 
+    <div class="card h-100" id='card-three'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Horiseon <br/> Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a> 
+
+<div class="col">
+    <a href='https://lisette33.github.io/Weather-Dashboard-Project/' target='_blank'> 
+    <div class="card h-100" id='card-four'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Weather Dashboard Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a>
+
+    <div class="col">
+    <a href='https://fathomless-citadel-11849.herokuapp.com/' target='_blank'> 
+    <div class="card h-100" id='card-five'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Note Taker <br/> Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a>
+
+    <div class="col">
+    <a href='https://aqueous-beach-09859.herokuapp.com/' target='_blank'> 
+    <div class="card h-100" id='card-six'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Book Search Engine Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+       
   );
 }

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About';
+import Home from './components/Homepage';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -14,6 +15,7 @@ import pic2 from './images/pic2.jpg';
 function App() {
 
   const name="Lisette Morales";
+  const navTitle="Home";
   const navTitleOne="About Me";
   const navTitleTwo="Portfolio";
   const navTitleThree="Contact";
@@ -21,13 +23,16 @@ function App() {
   const [message,setMessage]=useState("");
   console.log(message);
 
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Projects') {
+    if (currentPage === 'Portfolio') {
       return <Projects />;
     }
     if (currentPage === 'Contact') {
@@ -40,16 +45,17 @@ function App() {
   };
 
   return (
-    <div> 
+    <div className={currentPage==='Home' ? 'background':''}> 
+
        <navbar class="navbar"></navbar>
-      <Navbar> </Navbar> 
+      <Navbar setCurrentPage={setCurrentPage}> </Navbar> 
       <h2>{}</h2>
     <header class="header">
-        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>,
-        <div style={{display:"flex",marginBottom:"100px",width:"50vw",justifyContent:"space-evenly"}}>
-            <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
+        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+        <div style={{display:"flex",marginBottom:"100px",width:"50vw",justifyContent:"space-evenly"}}> 
+            {/* <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
             <a href="#projects"onClick={()=>setCurrentPage("Projects")}>{navTitleTwo}</a>
-            <a href="#contact"onClick={()=>setCurrentPage("Contact")}>{navTitleThree}</a>
+            <a href="#contact"onClick={()=>setCurrentPage("Contact")}>{navTitleThree}</a> */} 
             {/* <a href="#contact"onClick={()=>setCurrentPage("Resume")}>{navTitleFour}</a> */}
           </div>
           {renderPage()}
@@ -72,7 +78,7 @@ function App() {
 
     {/* <!-- This is the footer opening tag --> */}
     <footer class="footer">
-    <div style={{width:"100vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+    <div style={{width:"100vw", hheight:"100%", display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
         <h6>
         <p>
