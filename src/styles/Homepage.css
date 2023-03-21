@@ -1,6 +1,6 @@
 .background {
     /* background: ;<img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */
-    background-image: url("../images/pic3.jpg");
+    background-image: url("../images/beachpic7.png");
     /* background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,8 +14,11 @@
     background-size: 105% 105%;
     padding-bottom: 23px;
     padding-right: 50px;
+}
 
+.background-text p h1 {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 
-
-    
 }
