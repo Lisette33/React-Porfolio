@@ -28,8 +28,23 @@ export default function About() {
     </a>
 
     <div class="col">
-    <a href='https://damp-river-14558.herokuapp.com/' target='_blank'> 
+    <a href='https://salty-fjord-43236.herokuapp.com/' target='_blank'> 
     <div class="card h-100" id='card-two'>
+      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
+      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
+      <div class="card-body">
+        <h5 class="card-title">Match My Mood Project</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    </a> 
+
+    <div class="col">
+    <a href='https://damp-river-14558.herokuapp.com/' target='_blank'> 
+    <div class="card h-100" id='card-three'>
       {/* <img src="..." class="card-img-overlay" alt="..."/> */}
       {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
       <div class="card-body">
@@ -42,28 +57,13 @@ export default function About() {
     </div>
     </a> 
 
-    <div class="col">
-    <a href='https://lisette33.github.io/Module-1-Challenge-Assignment/' target='_blank'> 
-    <div class="card h-100" id='card-three'>
-      {/* <img src="..." class="card-img-overlay" alt="..."/> */}
-      {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
-      <div class="card-body">
-        <h5 class="card-title">Horiseon <br/> Project</h5>
-        <p class="card-text"></p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted"></small>
-      </div>
-    </div>
-    </a> 
-
 <div class="col">
-    <a href='https://lisette33.github.io/Weather-Dashboard-Project/' target='_blank'> 
+    <a href='https://lisette33.github.io/Module-1-Challenge-Assignment/' target='_blank'> 
     <div class="card h-100" id='card-four'>
       {/* <img src="..." class="card-img-overlay" alt="..."/> */}
       {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
       <div class="card-body">
-        <h5 class="card-title">Weather Dashboard Project</h5>
+        <h5 class="card-title">Business: Web Accessibility for Horiseon <br/> Project</h5>
         <p class="card-text"></p>
       </div>
       <div class="card-footer">
@@ -88,12 +88,12 @@ export default function About() {
     </a>
 
     <div class="col">
-    <a href='https://aqueous-beach-09859.herokuapp.com/' target='_blank'> 
+    <a href='https://gentle-ravine-68181.herokuapp.com/' target='_blank'> 
     <div class="card h-100" id='card-six'>
       {/* <img src="..." class="card-img-overlay" alt="..."/> */}
       {/* <img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */}
       <div class="card-body">
-        <h5 class="card-title">Book Search Engine Project</h5>
+        <h5 class="card-title">Progressive Web Applications: Text Editor Project</h5>
         <p class="card-text"></p>
       </div>
       <div class="card-footer">
