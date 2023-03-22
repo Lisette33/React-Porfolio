@@ -14,7 +14,8 @@ https://lisette33.github.io/React-Porfolio/
 The project represents a creation of a portfolio utilizing React.
 
 ## Screenshot of Application
-![React Portfolio](https://user-images.githubusercontent.com/113862182/222610579-e386cd64-c0cf-4e07-8520-bde7095dca2d.png)
+![React Portfolio](https://user-images.githubusercontent.com/113862182/227040298-08c9085c-b7c0-4261-8ea5-813e181090dd.png)
+
 
 ## Project Guidelines stated as:
 
