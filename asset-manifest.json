@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Porfolio/static/css/main.54b0e327.css",
+    "main.css": "/React-Porfolio/static/css/main.257ec584.css",
     "main.js": "/React-Porfolio/static/js/main.c78dcffc.js",
     "static/js/787.aeca62f9.chunk.js": "/React-Porfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/beachpic7.png": "/React-Porfolio/static/media/beachpic7.97d9af83e387e5475898.png",
+    "static/media/movies.jpg": "/React-Porfolio/static/media/movies.ca5873d9dcedd28fcd46.jpg",
+    "static/media/notes.jpg": "/React-Porfolio/static/media/notes.f31f93b0247f10ba4227.jpg",
+    "static/media/webacc.jpg": "/React-Porfolio/static/media/webacc.09444802b10c4bc44288.jpg",
     "static/media/pic2.jpg": "/React-Porfolio/static/media/pic2.c7148b966d755187f181.jpg",
+    "static/media/food.jpg": "/React-Porfolio/static/media/food.b6f3eaf4b1d11f4c4836.jpg",
     "static/media/pic3.jpg": "/React-Porfolio/static/media/pic3.caa6212aa6b24eec59cc.jpg",
+    "static/media/music.jpg": "/React-Porfolio/static/media/music.888cf05da496fe594756.jpg",
     "static/media/pic-of-me.png": "/React-Porfolio/static/media/pic-of-me.fa86e8d0560e3d996938.png",
+    "static/media/textpic.jpg": "/React-Porfolio/static/media/textpic.5f859be1a1f51ec71f95.jpg",
     "index.html": "/React-Porfolio/index.html",
-    "main.54b0e327.css.map": "/React-Porfolio/static/css/main.54b0e327.css.map",
+    "main.257ec584.css.map": "/React-Porfolio/static/css/main.257ec584.css.map",
     "main.c78dcffc.js.map": "/React-Porfolio/static/js/main.c78dcffc.js.map",
     "787.aeca62f9.chunk.js.map": "/React-Porfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b0e327.css",
+    "static/css/main.257ec584.css",
     "static/js/main.c78dcffc.js"
   ]
 }
