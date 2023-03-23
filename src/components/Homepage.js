@@ -8,15 +8,19 @@ function Homepage({setCurrentPage}) {
         {/* <div class="background"></div> */}
         <div class="container">
         <div style={{display:"flex",flex:"row", justifyContent:"center", padding:"0%", alignItems:"center"}}>
-        <div class="background-text text-center">
-            <p>
-                <h1><b>Full-Stack Web Development</b></h1>
-            </p>
+        {/* <div class="background-text text-center"> */}
+        <div class="card bg-transparent border-0 text-center">
+        <div class="card-body">
+            <b><h1 class="card-title">Web Development</h1></b>
         </div>
         </div>
         </div>
-
+        </div>
+        {/* </div> */}
     </div>
+
+
+
 
 
 
