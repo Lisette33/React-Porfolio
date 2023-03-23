@@ -1,3 +1,8 @@
+.body {
+    margin: 0%;
+    padding: 0%
+}
+
 .background {
     /* background: ;<img alt="pic-three" src={pic3} class="card-img-overlay" id="picthree-image"/> */
     background-image: url("../images/beachpic7.png");
@@ -16,9 +21,25 @@
     padding-right: 50px;
 }
 
-.background-text p h1 {
-    font-size: 70px;
+.card-body h1 {
+    font-size: 75px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
-
+    font-weight: bold;
+    width: 1000px; 
+    height: 1000px;
+    display: inline-block;
+    /* display: flex; */
+    position: relative;
+    /* bottom: 20px;*/
+    padding: 0px;
+    margin: 0px;   
+    /* padding-left: 140px; */
 }
+    
+
+@media screen and (max-width:2000px) {
+    .card-body h1 {
+      width:100%;
+      height:145px;
+    }
+  }
