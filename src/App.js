@@ -7,10 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-import avatar1 from './images/pic-of-me.png';
-import pic2 from './images/pic2.jpg';
-// import pic3 from './images/pic3.jpg';
-// import pic4 from './images/pic4.jpg';
+import avatar11 from '../images/mepic11.png';
 
 function App() {
 
