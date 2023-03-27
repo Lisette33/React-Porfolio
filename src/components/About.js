@@ -1,15 +1,5 @@
 import React from 'react';
 import '../styles/About.css';
-// import avatar1 from '../images/pic-of-me.png';
-// import avatar2 from '../images/mepic2.png';
-// import avatar3 from '../images/mepic3.png';
-// import avatar4 from '../images/mepic4.png';
-// import avatar5 from '../images/mepic5.png';
-// import avatar6 from '../images/mepic6.png';
-// import avatar7 from '../images/mepic7.png';
-// import avatar8 from '../images/mepic8.png';
-import avatar9 from '../images/mepic9.png';
-import avatar10 from '../images/mepic10.png';
 import avatar11 from '../images/mepic11.png';
 
 export default function About() {
