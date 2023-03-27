@@ -51,7 +51,7 @@ function App() {
       <Navbar setCurrentPage={setCurrentPage}> </Navbar> 
       <h2>{}</h2>
     <header class="header">
-        <div style={{width:"100vw", height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+        <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <div style={{display:"flex",marginBottom:"100px",width:"50vw",justifyContent:"space-evenly"}}> 
             {/* <a href="#about-me" onClick={()=>setCurrentPage("About")}>{navTitleOne}</a>
             <a href="#projects"onClick={()=>setCurrentPage("Projects")}>{navTitleTwo}</a>
@@ -78,7 +78,7 @@ function App() {
 
     {/* <!-- This is the footer opening tag --> */}
     <footer class="footer">
-    <div style={{width:"100vw", hheight:"100%", display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+    <div style={{width:"100vw", height:"100%", display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
         <h6>
         <p>
