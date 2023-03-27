@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-import avatar11 from '../images/mepic11.png';
+// import avatar11 from '../images/mepic11.png';
 
 function App() {
 
