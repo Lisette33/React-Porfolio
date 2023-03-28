@@ -76,7 +76,7 @@ function App() {
     {/* <!-- This is the footer opening tag --> */}
     <footer class="footer">
     <div style={{width:"100vw", height:"100%", display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-        <div style={{display:"flex",marginBottom:"40px",width:"50vw",justifyContent:"space-evenly"}}>
+        <div style={{display:"flex",marginBottom:"-30px",width:"50vw",justifyContent:"space-evenly"}}>
         <h6>
         <p>
           <ol class="card3">
@@ -87,7 +87,7 @@ function App() {
            
         </p> 
         </h6>
-        </div>
+        </div> 
         </div>
     </footer>
     {/* <!-- This is the footer closing tag --> */}
