@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Porfolio/static/css/main.61eafb27.css",
-    "main.js": "/React-Porfolio/static/js/main.f8825e26.js",
+    "main.css": "/React-Porfolio/static/css/main.c6d1c64d.css",
+    "main.js": "/React-Porfolio/static/js/main.1c1daead.js",
     "static/js/787.aeca62f9.chunk.js": "/React-Porfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/webacc.png": "/React-Porfolio/static/media/webacc.8e0802df66491153d2c6.png",
     "static/media/mepic11.png": "/React-Porfolio/static/media/mepic11.346dbc87636f2f8fb786.png",
     "static/media/beachpic7.png": "/React-Porfolio/static/media/beachpic7.97d9af83e387e5475898.png",
     "static/media/movies.jpg": "/React-Porfolio/static/media/movies.ca5873d9dcedd28fcd46.jpg",
-    "static/media/notes.jpg": "/React-Porfolio/static/media/notes.f31f93b0247f10ba4227.jpg",
-    "static/media/webacc.jpg": "/React-Porfolio/static/media/webacc.09444802b10c4bc44288.jpg",
-    "static/media/food.jpg": "/React-Porfolio/static/media/food.b6f3eaf4b1d11f4c4836.jpg",
+    "static/media/food.png": "/React-Porfolio/static/media/food.3a027e986b2aaa2faa4f.png",
     "static/media/pic3.jpg": "/React-Porfolio/static/media/pic3.caa6212aa6b24eec59cc.jpg",
     "static/media/music.jpg": "/React-Porfolio/static/media/music.888cf05da496fe594756.jpg",
-    "static/media/textpic.jpg": "/React-Porfolio/static/media/textpic.5f859be1a1f51ec71f95.jpg",
     "index.html": "/React-Porfolio/index.html",
-    "main.61eafb27.css.map": "/React-Porfolio/static/css/main.61eafb27.css.map",
-    "main.f8825e26.js.map": "/React-Porfolio/static/js/main.f8825e26.js.map",
+    "main.c6d1c64d.css.map": "/React-Porfolio/static/css/main.c6d1c64d.css.map",
+    "main.1c1daead.js.map": "/React-Porfolio/static/js/main.1c1daead.js.map",
     "787.aeca62f9.chunk.js.map": "/React-Porfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61eafb27.css",
-    "static/js/main.f8825e26.js"
+    "static/css/main.c6d1c64d.css",
+    "static/js/main.1c1daead.js"
   ]
 }
