@@ -24,7 +24,7 @@ export default function About() {
         <p class="card-text">Based on my Full-Stack Web Development skills, my previous experience on projects includes front-end and back-end development to create web applications. 
         <br/>
         <br/>
-        In particular, I worked in small group settings creating front-end websites with my web development skills, such as HTML, CSS, and JavaScript. In using these skills, I structure, style, and incorporate functionality to web pages. I also perform web design and enhance the user interface (UI) to web pages for websites. I use technologies including React, Bootstrap, and APIs creating client-side applications. I also worked on back-end development building full-stack web applications consisting of servers and databases with technologies.
+        In particular, I worked in small group settings creating front-end websites with my web development skills, such as HTML, CSS, and JavaScript. In using these skills, I structure, style, and incorporate functionality to web pages. I consider the user experience (UX) with the products, and I perform wireframing, web design, and enhance the user interface (UI) to web pages for websites. I use technologies including React, Bootstrap, and APIs creating client-side applications. I also worked on back-end development building full-stack web applications consisting of servers and databases with technologies.
         <br/>
         <br/>
         Additional skills include communicating and collaborating with people, project presentation and storytelling, and teamwork. 
