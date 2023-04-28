@@ -11,7 +11,7 @@ function Homepage({setCurrentPage}) {
         {/* <div class="background-text text-center"> */}
         <div class="card bg-transparent border-0 text-center">
         <div class="card-body">
-            <b><h1 class="card-title">Web Development / <br> Design </br></h1></b>
+            <b><h1 class="card-title">Web Development</h1></b>
         </div>
         </div>
         </div>
